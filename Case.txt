@@ -1,0 +1,11 @@
+﻿Sizlere bir ağ trafiği verisi sunuyoruz. Bu veride hem meşru trafik hem de saldırı trafiği bulunmaktadır. Göreviniz, bu veriyi analiz etmek ve genel trafiği görselleştirmek için uygun yöntemleri kullanmaktır. Örnek olarak, içten içe ve içten dışa trafiğin yoğunluğunu belirlemek, en çok trafik yapan ve en çok veri indiren adresleri tespit etmek gibi durumları göz önünde bulundurabilirsiniz. Ayrıca, bu trafik verisi üzerinden bazı yaygın siber saldırıları tespit etmek de beklenmektedir.
+ 
+İşte görevinizde yardımcı olabilecek bazı adımlar:
+ 
+* Veri Keşfi ve Temizleme: İlk adım olarak, veri setini inceleyiniz ve gerekiyorsa temizleyiniz. Anlamlı verileri ayıklamak ve anormallikleri tespit etmek için görselleştirmeler yapılmalıdır.
+* Trafik Analizi: Veri setini ayrıntılı olarak analiz edin. İçten içe ve içten dışa trafiği belirleyin, en yoğun zaman dilimlerini ve trafik kaynaklarını belirleyin.
+* Görselleştirme: Analiz sonuçlarını görselleştirerek sunum yapınız. Grafikler, tablolar gibi görsel araçları kullanarak trafiği anlamak ve sunmak daha etkili olabilir.
+* Siber Saldırı Tespiti: Port taraması, Bruteforce saldırıları ve ARP Scan, Exfiltration, Execution gibi siber saldırıları belirlemek için veriyi inceleyiniz. Bu saldırıları gerçekleştiren IP adreslerini ve hedef IP adreslerini tespit ediniz. Ayrıca, saldırıların zamanını da analiz ediniz.
+* Raporlama: Analiz sonuçlarını içeren kapsamlı bir rapor hazırlayınız. Raporunuzda, kullanılan metodolojiyi, bulguları ve tavsiyelerinizi açıkça belirtmeniz istenmektedir.
+ 
+Bu case ile ilgili çalışırken Python kullanmayı ve kaynak kodlarınızı da paylaşmayı unutmayınız. Bu case için geri dönüş süresi 1 haftadır. Tüm adımların tamamlanması şart değildir.

@@ -1,0 +1,194 @@
+field,explanation
+sync_name,The device which collected the mirrored data.
+source_address,Source IP address of the connection.
+destination_address,Destination IP address of the connection.
+source_port,Source port value of the connection.
+destination_port,Destination port value of the connection.
+protocol,Network layer protocol's numeric equivalent used in the connection.
+app_protocol,Application layer protocol's numeric equivalent used in the connection.
+application_name,Application layer protocol's name used in the connection.
+application_category_name,Application layer protocol's used in the connection.
+master_application_name,Application layer protocol's master protocol -if its exist- used in the connection.
+tunnel_source_address,Tunneled source IP address of the connection.
+tunnel_destination_address,Tunneled destination IP address of the connection.
+source_mac,Source MAC address of the connection.
+destination_mac,Destination MAC address of the connection.
+package_count,Seen packet count in bidirectional traffic.
+login_fail_count,Sets to 1 if a login fail detected.
+login_success,Sets to 0 if a login success detected.
+expiration_id,"Sets to 0 if the session finished with idle timeout, sets to 1 if finished other than idle timeout, sets to 2 if process killed and session did not finished."
+drop_eligible,VLAN header drop_eligible flag equivalent if set true else false.
+priority,VLAN header priority value.
+vlan_identifier,VLAN vlan_identifier value.
+event_time,Time value when the session collected.
+bidirectional_first_seen_ms,Bidirectional first seen time in millisecond.
+bidirectional_last_seen_ms,Bidirectional last seen time in millisecond.
+bidirectional_duration_ms,Bidirectional session duration in millisecond.
+bidirectional_bytes,Bidirectional seen bytes sum.
+bidirectional_max_piat_ms,Bidirectional max value of seen packet time difference with last seen packet in millisecond.
+bidirectional_max_ps,Bidirectional max value of seen packet size.
+bidirectional_mean_piat_ms,Bidirectional mean value of seen packet time difference with last seen packet in millisecond.
+bidirectional_mean_ps,Bidirectional mean value of seen packet size.
+bidirectional_min_piat_ms,Bidirectional min value of seen packet time difference with last seen packet in millisecond.
+bidirectional_min_ps,Bidirectional min value of seen packet size.
+bidirectional_packets,Bidirectional packet count in the session.
+bidirectional_stddev_piat_ms,Bidirectional standard deviation value of seen packet time difference with last seen packet in millisecond.
+bidirectional_stddev_ps,Bidirectional standard deviation value of seen packet size.
+bidirectional_syn_packets,Bidirectional TCP SYN flag count in the session.
+bidirectional_cwr_packets,Bidirectional TCP Congestion-Window-Reduced flag count in the session.
+bidirectional_ece_packets,Bidirectional TCP ECN-Echo flag count in the session.
+bidirectional_urg_packets,Bidirectional TCP Urgent flag count in the session.
+bidirectional_ack_packets,Bidirectional TCP Acknowledgement flag count in the session.
+bidirectional_psh_packets,Bidirectional TCP Push flag count in the session.
+bidirectional_rst_packets,Bidirectional TCP Reset flag count in the session.
+bidirectional_fin_packets,Bidirectional TCP FIN flag count in the session.
+src2dst_first_seen_ms,Source->Destination first seen time in millisecond.
+src2dst_last_seen_ms,Source->Destination last seen time in millisecond.
+src2dst_duration_ms,Source->Destination duration in millisecond.
+src2dst_packets,Source->Destination packet count in the session.
+src2dst_bytes,Source->Destination seen bytes sum.
+src2dst_max_piat_ms,Source->Destination max value of seen packet time difference with last seen packet in millisecond.
+src2dst_max_ps,Source->Destination max value of seen packet size.
+src2dst_mean_piat_ms,Source->Destination mean value of seen packet time difference with last seen packet in millisecond.
+src2dst_mean_ps,Source->Destination mean value of seen packet size.
+src2dst_min_piat_ms,Source->Destination min value of seen packet time difference with last seen packet in millisecond.
+src2dst_min_ps,Source->Destination min value of seen packet size.
+src2dst_stddev_piat_ms,Source->Destination standard deviation value of seen packet time difference with last seen packet in millisecond.
+src2dst_stddev_ps,Source->Destination standard deviation value of seen packet size.
+src2dst_syn_packets,Source->Destination TCP SYN flag count in the session.
+src2dst_cwr_packets,Source->Destination TCP Congestion-Window-Reduced flag count in the session.
+src2dst_ece_packets,Source->Destination TCP ECN-Echo flag count in the session.
+src2dst_urg_packets,Source->Destination TCP Urgent flag count in the session.
+src2dst_ack_packets,Source->Destination TCP Acknowledgement flag count in the session.
+src2dst_psh_packets,Source->Destination TCP Push flag count in the session.
+src2dst_rst_packets,Source->Destination TCP Reset flag count in the session.
+src2dst_fin_packets,Source->Destination TCP FIN flag count in the session.
+dst2src_first_seen_ms,Destination->Source first seen time in millisecond.
+dst2src_last_seen_ms,Destination->Source last seen time in millisecond.
+dst2src_duration_ms,Destination->Source session duration in millisecond.
+dst2src_packets,Source->Destination packet count in the session.
+dst2src_bytes,Source->Destination seen bytes sum.
+dst2src_max_piat_ms,Destination->Source max value of seen packet time difference with last seen packet in millisecond.
+dst2src_max_ps,Destination->Source max value of seen packet size.
+dst2src_mean_piat_ms,Destination->Source mean value of seen packet time difference with last seen packet in millisecond.
+dst2src_mean_ps,Destination->Source mean value of seen packet size.
+dst2src_min_piat_ms,Destination->Source min value of seen packet time difference with last seen packet in millisecond.
+dst2src_min_ps,Destination->Source min value of seen packet size.
+dst2src_stddev_piat_ms,Destination->Source standard deviation value of seen packet time difference with last seen packet in millisecond.
+dst2src_stddev_ps,Destination->Source standard deviation value of seen packet size.
+dst2src_syn_packets,Destination->Source TCP SYN flag count in the session.
+dst2src_cwr_packets,Destination->Source TCP Congestion-Window-Reduced flag count in the session.
+dst2src_ece_packets,Destination->Source TCP ECN-Echo flag count in the session.
+dst2src_urg_packets,Destination->Source TCP Urgent flag count in the session.
+dst2src_ack_packets,Destination->Source TCP Acknowledgement flag count in the session.
+dst2src_psh_packets,Destination->Source TCP Push flag count in the session.
+dst2src_rst_packets,Destination->Source TCP Reset flag count in the session.
+dst2src_fin_packets,Destination->Source TCP FIN flag count in the session.
+is_username,If username detected sets to true.
+username,First seen username in the session.
+username_arr,List of usernames in the sessions.
+is_hostname,If hostname detected sets to true.
+source_hostname,First seen source hostname in the session.
+source_hostname_arr,List of seen source hostnames in the session.
+destination_hostname,First seen destination hostname in the session.
+destination_hostname_arr,List of seen destination hostnames in the session.
+domain,First seen domain in the session.
+domain_arr,List of domains in the session.
+dns_query_name,Query name of the DNS request seen in the session.
+dns_query_len,Query length of the DNS request seen in the session.
+dns_query_type,Query type of the DNS request seen in the session.
+dns_answer_name,Answer name of the DNS seen in the session.
+dns_answer_len,Answer len of the DNS seen in the session.
+dns_answer_type,Answer type of the DNS seen in the session.
+dns_answer_addresses,DNS answer IP's for requested domains.
+dns_not_exist,DNS not exist flag if not exist sets to 1.
+dns_server_direction,"Server side direction. (src, dst)"
+dns_query_main_domain,Query main domain of the DNS request seen in the session.
+dns_query_sub_domain,Query sub domain of the DNS request seen in the session.
+dns_query_has_sub_domain,If DNS query has sub domain sets to 1.
+DNS.large_package_count,If query length more than 69 increments.
+DNS.dns_query_count,Query count in the DNS session.
+DNS.bidirectional_max_query_len,Bidirectional max query length in the session.
+status,HTTP status code with equivalent explanation.
+status_code,HTTP status code numeric equivalent.
+request_host,HTTP requested host in the session.
+request_type,HTTP request type.
+request_uri,First HTTP request uri seen in the session.
+request_uri_arr,List of HTTP request uris seen in the session.
+user_agent,HTTP user_agent seen in the traffic.
+first_http_post_body,First byte value of HTTP post body.
+http_request.domain,Domain in the request.
+http_request.risk,Request risk.
+http_request.uri,Uri in the request.
+bidirectional_http_request_count,Bidirectional HTTP request count.
+bidirectional_get_request_count,Bidirectional HTTP GET request count.
+bidirectional_get_request_bytes,Bidirectional HTTP request bytes sum.
+bidirectional_post_request_count,Bidirectional HTTP POST request count.
+bidirectional_post_request_bytes,Bidirectional HTTP POST request bytes count.
+src2dst_get_request_bytes,Source->Destination HTTP GET request bytes count.
+src2dst_post_request_bytes,Source->Destination HTTP POST request bytes count.
+dst2src_get_request_bytes,Destination->Source HTTP GET request bytes count.
+dst2src_post_request_bytes,Destination->Source HTTP POST request bytes count.
+HTTP.reversed,If reversed sets to true
+ja3_client,Client sides ja3 fingerprint.
+ja3_server,Server sides ja3 fingerprint.
+mail_sender,SMTP mail sender information.
+mail_recipient,SMTP mail recipient information.
+file_transport,If Secure Copy Protocol detected sets true.
+ntlmssp_auth_seen,If NTLMSSP Auth seen sets to true.
+LdapUserInfo.user_name,Active Directory username.
+LdapUserInfo.title_name,Active Directory title name.
+LdapUserInfo.adr_name,Active Directory address name.
+LdapUserInfo.is_success,Active Directory connection is succeeded.
+ICMP.icmp_type_code,First seen ICMP type code in the session.
+ICMP.icmp_type,First seen ICMP type in the session.
+ICMP.icmp_type_codes,List of seen ICMP type codes count in the session.
+ICMP.icmp_type_status,List of seen ICMP type statuses count in the session.
+SMB2Status.smb2message_id,SMB2 Protocol message id.
+SMB2Status.smb2file_message_id,SMB2 Protocol file message id.
+SMB2Status.Delete,"{'success': 'SMB2 Protocol file delete if succeeded sets to true.', 'fail': 'SMB2 Protocol file delete if failed sets to true.', 'unknown': 'SMB2 Protocol file delete if unknown sets to true.', 'deleted_file_name': 'SMB2 Protocol deleted file name.'}"
+SMB2Status.Read,"{'success': 'SMB2 Protocol file read if succeeded sets to true.', 'fail': 'SMB2 Protocol file read if failed sets to true.', 'unknown': 'SMB2 Protocol file read if unknown sets to true.'}"
+SMB2Status.Write,"{'success': 'SMB2 Protocol file write if succeeded sets to true.', 'fail': 'SMB2 Protocol file write if failed sets to true.', 'unknown': 'SMB2 Protocol file write if unknown sets to true.'}"
+SMB2Status.access_denied,SMB2 Protocol if access denied sets to true.
+SMB2Status.File,"{'first_name': 'SMB2 Protocol first file name in the session.', 'last_name': 'SMB2 Protocol first file name in the session.', 'move': 'SMB2 Protocol sets true if file moved.', 'rename': 'SMB2 Protocol sets true if file renamed.', 'mim_type': 'SMB2 Protocol file mim type.'}"
+Flow_Risks.risk,Risk explanation for session.
+Flow_Risks.risk_severity,Risk severity for session.
+Flow_Risks.risk_score_total,Risk score for session.
+Flow_Risks.risk_score_client,Client risk score for session.
+Flow_Risks.risk_score_server,Server risk score for session.
+Kerberos.auth_service_status,Kerberos protocol auth service status.
+Kerberos.tag_status,Kerberos protocol tag status.
+Kerberos.client_type,Kerberos protocol client type.
+imap_server_side_using_capability,"IMAP protocol server side labeling using capability flag. (src, dst)"
+direction,"Direction of the session. (INTERNAL2INTERNAL, INTERNAL2EXTERNAL, EXTERNAL2INTERNAL, EXTERNAL2EXTERNAL)"
+location_id,Location ID for the device which collected the mirrored data
+bidirectional_first_seen_ms_ts,Bidirectional first seen time.
+bidirectional_last_seen_ms_ts,Bidirectional last seen time.
+sourceCountry.Latitude,Latitude information for source country.
+sourceCountry.Longitude,Longitude information for source country.
+sourceCountry.CityName,City name of the source country.
+sourceCountry.SubdivisionName,Subdivision name of the source country
+sourceCountry.CountryNames,Country names of the source country.
+sourceCountry.IsoCode,ISO Code of source country.
+destinationCountry.Latitude,Latitude information for destination country.
+destinationCountry.Longitude,Longitude information for destination country.
+destinationCountry.CityName,City name of the destination country.
+destinationCountry.SubdivisionName,Subdivision name of the destination country
+destinationCountry.CountryNames,Country names of the destination country.
+destinationCountry.IsoCode,ISO Code of destination country.
+sourceGeoPoint.lat,Source geological point latitude.
+sourceGeoPoint.lon,Source geological point longitude.
+destinationGeoPoint.lat,Destination geological point latitude.
+destinationGeoPoint.lon,Destination geological point longitude.
+src_asn.AsnCode,Source ASN code.
+src_asn.AsnOrganizationName,Source ASN Organization name.
+dst_asn.AsnCode,Destination ASN code.
+dst_asn.AsnOrganizationName,Destination ASN Organization name.
+nbns_conflict_count,NetBIOS Name Service Protocol conflict count.
+source_type,"Type of source. (INTERNAL, EXTERNAL)"
+destination_type,"Type of destination. (INTERNAL, EXTERNAL)"
+session_id,"Calculated session id with five tuple. (src_ip, dst_ip, src_port, dst_port, protocol)"
+session_id_from_time,"Calculated session id with five tuple addition timestamp. (src_ip, dst_ip, src_port, dst_port, protocol, timestamp)"
+protocol_name,Network layer's protocol name.
+source_asset_type,User defined source asset type.
+destination_asset_type,User defined destination asset type.
